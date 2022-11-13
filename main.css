@@ -1,0 +1,42 @@
+/* Stop-watch Styling */
+
+body {
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 70%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+
+#timer {
+    width: inherit;
+    font-size: 70px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+    
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    width: 50px;
+}
